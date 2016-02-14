@@ -1,0 +1,23 @@
+span.error {
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 0.88889rem;
+    margin-top: -1px;
+    padding: 0.33333rem 0.5rem 0.5rem;
+    background: #f04124;
+    color: #FFFFFF;
+}
+
+header ul.mui--text-body2 {
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: white;
+}

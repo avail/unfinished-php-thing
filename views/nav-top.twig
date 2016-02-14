@@ -1,0 +1,3 @@
+{% if app.session.get('user_id') is not null %}
+    Welcome back, {{ app.session.get('username') }}
+{% endif %}

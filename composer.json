@@ -1,0 +1,12 @@
+{
+    "require": {
+        "twig/twig": "1.22.3",
+        "silex/silex": "~2.0",
+        "doctrine/dbal": "^2.5",
+        "dflydev/doctrine-orm-service-provider": "~2.0.1"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "Entities\\": "entities" }
+    }
+}

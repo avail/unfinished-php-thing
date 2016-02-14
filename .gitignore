@@ -1,0 +1,5 @@
+vendor/
+components/
+app.db
+composer.phar
+composer.lock

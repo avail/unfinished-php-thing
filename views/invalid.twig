@@ -1,0 +1,7 @@
+{% include 'header.twig' %}
+    {% if errors is defined %}
+        {% for error in errors %}
+            <small class="error">{{ error }}</small>
+        {% endfor %}
+    {% endif %}
+{% include 'footer.twig' %}

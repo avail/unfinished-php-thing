@@ -1,0 +1,29 @@
+{% include 'header.twig' with {'title': 'Login'} %}
+
+<div class="mui-panel">
+    {% if errors is defined %}
+        {% for error in errors %}
+            <small class="error">{{ error }}</small>
+        {% endfor %}
+    {% endif %}
+
+    <form method="post">
+
+        <legend>Login</legend>
+
+        <div class="mui-textfield mui-textfield--float-label">
+            <input type="text" name="username" value="{{ userdata.username | default('') }}" />
+            <label>Username</label>
+        </div>
+
+        <div class="mui-textfield mui-textfield--float-label">
+            <input type="password" name="password" />
+            <label>Password</label>
+        </div>
+
+        <button type="submit" class="mui-btn mui-btn--primary">Login</button>
+
+    </form>
+</div>
+
+{% include 'footer.twig' %}
